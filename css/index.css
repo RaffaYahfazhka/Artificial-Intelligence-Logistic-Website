@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap');
+
+:root {
+    --white-element: #FAFAFA;
+    --orange-element: #DE8643;
+    --blue-element: #1F5CCF;
+    --page-title: #2F2F2F;
+    --desc-black: #1D1D1E;
+}
+
+*{
+	margin: 0;
+  padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+    
+}
+
+*:focus {outline:0;}
+
+.container {
+  width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	min-height: 400px;
+}
+
+/* NAVBAR HOME */
+
+.home-nav{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 22.3%;
+  top: 40px;
+            
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+	color: var(--white-element);
+	text-decoration: none;
+}
+
+.about-nav{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 31.4%;
+  top: 40px;
+
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+	color: var(--white-element);
+	text-decoration: none;
+}
+
+.tujuan-nav{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 42%;
+  top: 40px;
+    
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+	color: var(--white-element);
+	text-decoration: none;
+}
+
+.inovasi-nav{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 51.7%;
+  top: 40px;
+    
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+	color: var(--white-element);
+	text-decoration: none;
+}
+
+.keunggulan-nav{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 61.6%;
+  top: 40px;
+    
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+	color: var(--white-element);
+	text-decoration: none;
+}
+
+.kontak-nav{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 74.3%;
+  top: 40px;
+    
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  color: var(--white-element);
+  text-decoration: none;
+}
+
+/* NAVBAR ABOUT DAN SETERUSNYA */
+
+.navbar-rectangle {
+  position: fixed;
+width: 1000px;
+height: 80px;
+left: 212px;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 0px 0px 60px 60px;
+z-index: -1;
+}
+
+.navbar {
+	position: fixed;
+  width: 895px;
+  height: 29px;
+  left: 320px;
+  top: 38px;
+  align-items: center;
+  z-index: -1;
+}
+
+.navbar .navbar-link {
+	width: 56vw;
+	min-width: 430px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-link .navbar-text {
+	font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+	color: var(--desc-black);
+	text-decoration: none;
+}
+
+/* Home */
+
+.home {
+    width: 100%;
+    height: 821px;
+    background-color: var(--blue-element);
+}
+
+.logistic-image {
+    left: 320px;
+    margin-bottom: 1000px;
+}
+
+/* About */
