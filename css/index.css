@@ -4,7 +4,9 @@
     --white-element: #FAFAFA;
     --orange-element: #DE8643;
     --blue-element: #1F5CCF;
-    --page-title: #2F2F2F;
+    --white-background-1: #F5F8FD;
+    --white-background-2: #FCFCFC;
+    --title-page: #2F2F2F;
     --desc-black: #1D1D1E;
 }
 
@@ -23,11 +25,7 @@
 	margin: 0 auto;
 }
 
-header {
-	min-height: 400px;
-}
-
-/* NAVBAR HOME */
+/* Navbar */
 
 .home-nav{
   position: absolute;
@@ -113,58 +111,169 @@ header {
   text-decoration: none;
 }
 
-/* NAVBAR ABOUT DAN SETERUSNYA */
-
-.navbar-rectangle {
-  position: fixed;
-width: 1000px;
-height: 80px;
-left: 212px;
-top: 0px;
-
-background: #FFFFFF;
-border-radius: 0px 0px 60px 60px;
-z-index: -1;
-}
-
-.navbar {
-	position: fixed;
-  width: 895px;
-  height: 29px;
-  left: 320px;
-  top: 38px;
-  align-items: center;
-  z-index: -1;
-}
-
-.navbar .navbar-link {
-	width: 56vw;
-	min-width: 430px;
-	height: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.navbar-link .navbar-text {
-	font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: medium;
-	color: var(--desc-black);
-	text-decoration: none;
-}
-
 /* Home */
 
 .home {
-    width: 100%;
-    height: 821px;
-    background-color: var(--blue-element);
+  width: 100%;
+  height: 821px;
+  background-color: var(--blue-element);
+  background-repeat: no-repeat;
+  background-size:cover;
+  z-index: 2;
 }
 
-.logistic-image {
-    left: 320px;
-    margin-bottom: 1000px;
+.title-text {
+  width: 1000px;
+}
+
+.title {
+  position: absolute;
+  left: 8.5%;
+  bottom: 44%;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 195px;
+  /* or 152% */
+  letter-spacing: 0.04em;
+  color: var(--white-element);
+}
+
+.subtitle-1 {
+  position: absolute;
+  left: 9%;
+  bottom: 64%;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  color: var(--white-element);
+}
+
+.subtitle-2 {
+  position: absolute;
+  height: 58px;
+  width: 554px;
+  left: 9%;
+  bottom: 39%;
+
+  font-family: 'Heebo', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  /* or 152% */
+  letter-spacing: 0.06em;
+  color: var(--white-element);
+}
+
+.button-detail {
+  position: absolute;
+  width: 232px;
+  height: 63px;
+  left: 9%;
+  bottom: 27%;
+
+  border-radius: 30px;
+  background-color: var(--white-element);
+  filter: drop-shadow(3px 29px 23px rgba(0, 0, 0, 0.1));
+}
+
+.button-detail .detail {
+  position: absolute;
+  height: 49px;
+  width: 230px;
+  left: 0.6%;
+  bottom: -8%;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 27px;
+  text-align: center;
+  color: var(--title-page);
+}
+
+.button-detail:hover {
+  position: absolute;
+  width: 232px;
+  height: 63px;
+  left: 9%;
+  bottom: 27%;
+
+  border-radius: 30px;
+  background-color: var(--orange-element);
+  filter: drop-shadow(3px 29px 23px rgba(0, 0, 0, 0.1));
+}
+
+.button-detail:hover .detail:hover {
+  position: absolute;
+  height: 49px;
+  width: 230px;
+  left: 0.6%;
+  bottom: -8%;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 27px;
+  text-align: center;
+  color: var(--white-element);
 }
 
 /* About */
+
+.about {
+  background-color: var(--white-background-1);
+}
+
+.latar-belakang .title {
+  position: absolute;
+  left: 50%; 
+  top: 112%;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  text-align: left;
+  line-height: 43px;
+  /* or 81% */
+
+  color: var(--title-page);
+}
+
+.latar-belakang .desc {
+  position: absolute;
+  height: 556px;
+  width: 609px;
+  left: 50%; 
+  top: 122%;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  line-height: 31px;
+  /* or 81% */
+
+  color: var(--desc-black);
+}
+
+.blue-square-about {
+  position: absolute;
+  width: 58px;
+  height: 60px;
+  left: 1382px;
+  top: 193%;
+
+  background: var(--blue-element);
+}
+
+/* Tujuan */
+
+
