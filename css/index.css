@@ -21,8 +21,10 @@
 *:focus {outline:0;}
 
 .container {
-  width: 100%;
+	width: 100%;
+	max-width: 1500px;
 	margin: 0 auto;
+	overflow-x: hidden;
 }
 
 /* Navbar */
@@ -122,14 +124,29 @@
   z-index: 2;
 }
 
+.logistic {
+  animation: melayang 5s infinite;
+}
+
+@keyframes melayang {
+  50% {
+    transform: translate(0px, 5px);
+  }
+}
+
 .title-text {
   width: 1000px;
 }
 
+.title-home {
+  width: max-content;
+  
+}
+
 .title {
-  position: absolute;
-  left: 8.5%;
-  bottom: 44%;
+  position: relative;
+  left: 12%;
+  bottom: 1058px;
 
   font-family: 'Poppins', sans-serif;
   font-size: 128px;
@@ -141,9 +158,9 @@
 }
 
 .subtitle-1 {
-  position: absolute;
-  left: 9%;
-  bottom: 64%;
+  position: relative;
+  left: 12.8%;
+  bottom: 1035px;
 
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
@@ -153,11 +170,11 @@
 }
 
 .subtitle-2 {
-  position: absolute;
+  position: relative;
   height: 58px;
   width: 554px;
-  left: 9%;
-  bottom: 39%;
+  left: 12.6%;
+  bottom: 1080px;
 
   font-family: 'Heebo', sans-serif;
   font-size: 24px;
@@ -172,7 +189,7 @@
   position: absolute;
   width: 232px;
   height: 63px;
-  left: 9%;
+  left: 8.7%;
   bottom: 27%;
 
   border-radius: 30px;
@@ -200,7 +217,7 @@
   position: absolute;
   width: 232px;
   height: 63px;
-  left: 9%;
+  left: 8.7%;
   bottom: 27%;
 
   border-radius: 30px;
@@ -230,10 +247,21 @@
   background-color: var(--white-background-1);
 }
 
+.robot {
+  animation: terbang 5s infinite;
+}
+
+@keyframes terbang {
+  50% {
+    transform: translate(0px, 20px);
+  }
+}
+
 .latar-belakang .title {
-  position: absolute;
+  position: relative;
+  width: 500px;
   left: 50%; 
-  top: 112%;
+  bottom: 1210px;
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -247,16 +275,16 @@
 }
 
 .latar-belakang .desc {
-  position: absolute;
+  position: relative;
   height: 556px;
   width: 609px;
   left: 50%; 
-  top: 122%;
+  bottom: 1180px;
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 17px;
   text-align: left;
   line-height: 31px;
   /* or 81% */
@@ -265,11 +293,11 @@
 }
 
 .blue-square-about {
-  position: absolute;
+  position: relative;
   width: 58px;
   height: 60px;
-  left: 1382px;
-  top: 193%;
+  left: 95.9%;
+  bottom: 1182px;
 
   background: var(--blue-element);
 }
