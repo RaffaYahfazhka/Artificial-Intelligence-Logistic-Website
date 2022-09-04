@@ -314,7 +314,7 @@
   background-color: var(--white-background-2);
   background-image: url(/img/Tujuan.svg);
   width: 100%;
-  height: 821.2px;
+  height: 65rem;
   z-index: -1;
   padding: 0 auto;
   margin: 0 auto;
@@ -342,6 +342,7 @@
 
 .card-title {
   display: flex;
+  padding-top: 50px;
   justify-content: space-around;
   margin: 50px;
 }
@@ -357,8 +358,11 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 24px;
-  margin: 0px 30px 0px 30px;
   text-align: center;
+}
+
+.Efisien {
+  padding-top: 20px;
 }
 
 .cardt2 img {
@@ -375,11 +379,63 @@
   padding-top: 20px;
   text-align: center;
 }
+
 .cardt3 img {
   width: 300px;
   height: 200px;
   border-radius: 20px;
   filter: drop-shadow(-9px 4px 4px rgba(0, 0, 0, 0.04));
+}
+
+.cardt3 h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.card-title2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  margin: 50px;
+}
+
+.cardt4 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  filter: drop-shadow(-9px 4px 4px rgba(0, 0, 0, 0.04));
+}
+
+.cardt4 h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+.cardtM {
+  padding-top: 20px;
+}
+
+.cardt5 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  filter: drop-shadow(-9px 4px 4px rgba(0, 0, 0, 0.04));
+}
+
+.cardt5 h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+.cardtMe {
+  padding-top: 20px;
 }
 
 /* Inovasi */
@@ -394,6 +450,35 @@
   margin: 0 auto;
 }
 
+.container-inovasi {
+  display: flex;
+  padding-top: 500px;
+  padding: 60px;
+}
+
+.inovasi-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 75px;
+}
+
+.inovasi-title p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.inoP {
+  padding-top: 30px;
+}
+
+.inovasi-img img {
+  width: 580px;
+  height: 400px;
+  margin-right: 30px;
+  background-blend-mode: darken;
+}
+
 /* Keunggulan */
 
 .keunggulan {
@@ -404,6 +489,33 @@
   z-index: -1;
   padding: 0 auto;
   margin: 0 auto;
+}
+
+.keunggulan {
+  padding: 50px;
+}
+
+.keunggulan h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+}
+
+.keunggulan-title1 h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.keunggulan-title2 h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 40px;
+  text-align: center;
 }
 
 /* Kontak */
