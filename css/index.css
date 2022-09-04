@@ -1,49 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap");
 
 :root {
-    --white-element: #FAFAFA;
-    --orange-element: #DE8643;
-    --blue-element: #1F5CCF;
-    --white-background-1: #F5F8FD;
-    --white-background-2: #FCFCFC;
-    --title-page: #2F2F2F;
-    --desc-black: #1D1D1E;
+  --white-element: #fafafa;
+  --orange-element: #de8643;
+  --blue-element: #1f5ccf;
+  --white-background-1: #f5f8fd;
+  --white-background-2: #fcfcfc;
+  --title-page: #2f2f2f;
+  --desc-black: #1d1d1e;
 }
 
-*{
-	margin: 0;
+* {
+  margin: 0;
   padding: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-    
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-*:focus {outline:0;}
+*:focus {
+  outline: 0;
+}
 
 .container {
-	width: 100%;
-	max-width: 1500px;
-	margin: 0 auto;
-	overflow-x: hidden;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /* Navbar */
 
-.home-nav{
+.home-nav {
   position: absolute;
   width: auto;
   height: auto;
   left: 22.3%;
   top: 40px;
-            
+
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
+  color: var(--white-element);
+  text-decoration: none;
 }
 
-.about-nav{
+.about-nav {
   position: absolute;
   width: auto;
   height: auto;
@@ -51,63 +52,63 @@
   top: 40px;
 
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
+  color: var(--white-element);
+  text-decoration: none;
 }
 
-.tujuan-nav{
+.tujuan-nav {
   position: absolute;
   width: auto;
   height: auto;
   left: 42%;
   top: 40px;
-    
+
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
+  color: var(--white-element);
+  text-decoration: none;
 }
 
-.inovasi-nav{
+.inovasi-nav {
   position: absolute;
   width: auto;
   height: auto;
   left: 51.7%;
   top: 40px;
-    
+
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
+  color: var(--white-element);
+  text-decoration: none;
 }
 
-.keunggulan-nav{
+.keunggulan-nav {
   position: absolute;
   width: auto;
   height: auto;
   left: 61.6%;
   top: 40px;
-    
+
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
+  color: var(--white-element);
+  text-decoration: none;
 }
 
-.kontak-nav{
+.kontak-nav {
   position: absolute;
   width: auto;
   height: auto;
   left: 74.3%;
   top: 40px;
-    
+
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: medium;
   color: var(--white-element);
   text-decoration: none;
@@ -120,7 +121,7 @@
   height: 821px;
   background-color: var(--blue-element);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   z-index: 2;
 }
 
@@ -140,7 +141,6 @@
 
 .title-home {
   width: max-content;
-  
 }
 
 .title {
@@ -148,7 +148,7 @@
   left: 12%;
   bottom: 1058px;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 128px;
   font-weight: 700;
   line-height: 195px;
@@ -162,7 +162,7 @@
   left: 12.8%;
   bottom: 1035px;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
   line-height: 40px;
@@ -176,7 +176,7 @@
   left: 12.6%;
   bottom: 1080px;
 
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 33px;
@@ -188,6 +188,7 @@
 .button-detail {
   position: absolute;
   width: 232px;
+  top: 550px;
   height: 63px;
   left: 8.7%;
   bottom: 27%;
@@ -204,7 +205,7 @@
   left: 0.6%;
   bottom: -8%;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
@@ -232,7 +233,7 @@
   left: 0.6%;
   bottom: -8%;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
@@ -246,7 +247,10 @@
 .about {
   background-color: var(--white-background-1);
   background-image: url(/img/About.svg);
-  width: 100%; height: 821.5px; padding: 0 auto; margin: 0 auto;
+  width: 100%;
+  height: 821.5px;
+  padding: 0 auto;
+  margin: 0 auto;
 }
 
 .robot {
@@ -262,10 +266,10 @@
 .latar-belakang .title {
   position: relative;
   width: 500px;
-  left: 50%; 
+  left: 50%;
   bottom: 400px;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 53px;
@@ -280,10 +284,10 @@
   position: relative;
   height: 556px;
   width: 609px;
-  left: 50%; 
+  left: 50%;
   bottom: 360px;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -309,7 +313,73 @@
 .tujuan {
   background-color: var(--white-background-2);
   background-image: url(/img/Tujuan.svg);
-  width: 100%; height: 821.2px; z-index: -1; padding: 0 auto; margin: 0 auto;
+  width: 100%;
+  height: 821.2px;
+  z-index: -1;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.title-tujuan {
+  text-align: center;
+  margin: 20px;
+  padding-top: 40px;
+}
+
+.title-tujuan h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.title-tujuan h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 20px;
+  margin: 0px 200px 0px 200px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.cardt1 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  filter: drop-shadow(-9px 4px 4px rgba(0, 0, 0, 0.04));
+}
+
+.cardt1 h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0px 30px 0px 30px;
+  text-align: center;
+}
+
+.cardt2 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  filter: drop-shadow(-9px 4px 4px rgba(0, 0, 0, 0.04));
+}
+
+.cardt2 h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 20px;
+  text-align: center;
+}
+.cardt3 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  filter: drop-shadow(-9px 4px 4px rgba(0, 0, 0, 0.04));
 }
 
 /* Inovasi */
@@ -317,7 +387,11 @@
 .inovasi {
   background-color: var(--white-background-1);
   background-image: url(/img/Inovasi.svg);
-  width: 100%; height: 821.2px; z-index: -1; padding: 0 auto; margin: 0 auto;
+  width: 100%;
+  height: 821.2px;
+  z-index: -1;
+  padding: 0 auto;
+  margin: 0 auto;
 }
 
 /* Keunggulan */
@@ -325,7 +399,11 @@
 .keunggulan {
   background-color: var(--white-background-2);
   background-image: url(/img/Keunggulan.svg);
-  width: 100%; height: 821.2px; z-index: -1; padding: 0 auto; margin: 0 auto;
+  width: 100%;
+  height: 821.2px;
+  z-index: -1;
+  padding: 0 auto;
+  margin: 0 auto;
 }
 
 /* Kontak */
@@ -333,7 +411,11 @@
 .kontak {
   background-color: var(--white-background-1);
   background-image: url(/img/Kontak.svg);
-  width: 100%; height: 821.2px; z-index: -1; padding: 0 auto; margin: 0 auto;
+  width: 100%;
+  height: 821.2px;
+  z-index: -1;
+  padding: 0 auto;
+  margin: 0 auto;
 }
 
 /* Footer */
@@ -343,12 +425,12 @@
   width: 100%;
   height: 69px;
 
-  background: #2D2D2D;
+  background: #2d2d2d;
 }
 
 .footer .text-center {
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -359,5 +441,4 @@
   text-align: center;
 
   color: var(--white-element);
- 
 }
