@@ -530,6 +530,116 @@
   margin: 0 auto;
 }
 
+.conten-kontak {
+  display: flex;
+  padding: 60px;
+}
+
+.detail-kontak {
+  padding: 40px;
+}
+
+.detail-kontak h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.detail-kontak p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.icon-kontak {
+  display: flex;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.icon-kontak h5 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.call-kontak {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.call-kontak img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.Mail-kontak {
+  display: flex;
+  padding-top: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.Mail-kontak h5 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.mail-kontak {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.mail-kontak img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.Maps-kontak {
+  display: flex;
+  padding-top: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.Maps-kontak p {
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.maps-kontak {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.maps-kontak img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
 /* Footer */
 
 .footer {
