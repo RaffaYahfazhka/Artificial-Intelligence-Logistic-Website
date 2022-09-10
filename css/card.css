@@ -7,9 +7,9 @@
   position: relative;
   display:inline-block;
   justify-content: space-between;
-  width: 24%;
+  width: 30%;
   height: 210px;
-  margin: 2.8em;
+  margin: 1em;
   overflow: hidden;
   background: #FFF;
   box-shadow: -9px 7px 4px rgba(0, 0, 0, 0.04);

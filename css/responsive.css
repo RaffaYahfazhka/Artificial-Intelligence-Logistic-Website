@@ -481,7 +481,7 @@
     position: relative;
     width: 500px;
     left: 50%; 
-    bottom: 380px;
+    bottom: 410px;
   
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -688,14 +688,23 @@
     position: relative;
     width: 500px;
     left: 50%; 
-    bottom: 336px;
-    font-size: large;
+    bottom: 330px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: left;
+    line-height: 43px;
+    /* or 81% */
+  
+    color: var(--title-page);
   }
   
   .latar-belakang .desc {
     width: 345px;
     left: 50%; 
-    bottom: 340px;
+    bottom: 320px;
     font-size: 11px;
     line-height: 25px;
   }
@@ -1101,22 +1110,30 @@
   .robot {
     position: relative;
     width: 230px; 
-    top: 130px; 
-    left: 25%;
+    top: 110px; 
+    left: 28%;
   }
 
   .latar-belakang .title {
     position: relative;
     width: 500px;
-    left: -13%; 
-    bottom: 230px;
-    font-size: medium, 10px;
-    text-align: center;
+    left: 23%; 
+    bottom: 250px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    line-height: 43px;
+    /* or 81% */
+  
+    color: var(--title-page);
   }
   
   .latar-belakang .desc {
     width: 250px;
-    left: 18%; 
+    left: 22%; 
     top: 100px;
     font-size: 10px;
     line-height: 25px;
