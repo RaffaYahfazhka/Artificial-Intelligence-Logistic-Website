@@ -1,22 +1,1406 @@
-@media screen and (max-width: 700px){
 
-  .card{width: 100%;height: auto;margin: 1em 0em;}
-  .card:hover img{top:30%;opacity: 0.5;}
+/* Desktop */
 
-  .card .overlay{
-    position: relative;
-    bottom: 0px;
-    left: 0px;
+@media screen and (max-width: 1149px) {
+  .home {
     width: 100%;
-    height: 200px;
+    background-image: url(/img/Home2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 5;
   }
-  .card img{
+
+  .title-home {
+    position: relative;
+    width: max-content;
+    top: 830px;
+    padding: 0;
+  }
+
+  .title {
+    position: relative;
+    left: 12%;
+    bottom: 1058px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 122px;
+    font-weight: 700;
+    line-height: 195px;
+    /* or 152% */
+    letter-spacing: 0.04em;
+    color: var(--white-element);
+  }
+  
+  .subtitle-1 {
+    position: relative;
+    left: 12.8%;
+    bottom: 1035px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: var(--white-element);
+  }
+  
+  .subtitle-2 {
+    position: relative;
+    height: 58px;
+    width: 554px;
+    left: 12.6%;
+    bottom: 1086px;
+  
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    /* or 152% */
+    letter-spacing: 0.06em;
+    color: var(--white-element);
+  }
+
+  .button-detail {
+    position: relative;
+    width: 230px;
+    height: 60px;
+    left: 12.6%;
+    bottom: 1060px;
+  
+    border-radius: 30px;
+    transition: 0.1s ease-in;
+    background-color: var(--white-element);
+    filter: drop-shadow(3px 29px 23px rgba(0, 0, 0, 0.1));
+  }
+  
+  .button-detail .detail {
+    position: absolute;
+    height: 49px;
+    width: 230px;
+    left: 0.6%;
+    bottom: -8%;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 27px;
+    text-align: center;
+    color: var(--title-page);
+    transition: 0.1s ease-in;
+  }
+  
+  .button-detail:hover {
+    position: relative;
+    width: 230px;
+    height: 60px;
+    left: 12.6%;
+    bottom: 1060px;
+  
+    border-radius: 30px;
+    transition: 0.1s ease-in;
+    background-color: var(--orange-element);
+    filter: drop-shadow(3px 29px 23px rgba(0, 0, 0, 0.1));
+  }
+  
+  .button-detail:hover .detail:hover {
+    position: absolute;
+    height: 49px;
+    width: 230px;
+    left: 0.6%;
+    bottom: -8%;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 27px;
+    text-align: center;
+    color: var(--white-element);
+    transition: 0.1s ease-in;
+  }
+
+  .logistic-png {
+    width: 650px;
+    height: 440px; 
+
+    left: 43%;
+    margin-bottom: 20px; 
+    position: relative;
+  }
+
+  .latar-belakang .title {
+    position: relative;
+    width: 500px;
+    left: 48.7%; 
+    bottom: 430px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: left;
+    line-height: 43px;
+    /* or 81% */
+  
+    color: var(--title-page);
+  }
+
+  .latar-belakang .desc {
+    width: 500px;
+    left: 49%; 
+    font-size: 15px;
+    bottom: 400px;
+  }
+
+  .robot {
+    position: relative; top: 160px; left: 14%;
+  }
+
+  .blue-square-about {
+    position: relative;
+    width: 58px;
+    height: 60px;
+    left: 95%;
+    bottom: 358px;
+  
+    background: var(--blue-element);
+  }
+
+  .title-tujuan .tujuan-text {
+    position: relative;
+    width: 305px;
+    height: 74px;
+    top: 50px;
+    left: 455px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 75px;
+    text-align: center;
+
+    color: var(--title-page);
+  }
+  
+  .title-tujuan .tujuan-desc {
+    position: relative;
+    width: 786px;
+    height: 58px;
+    left: 226px;
+    top: 50px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+  
+    color: var(--desc-black);
+  }
+
+  .inovasi-title .inovasi-text {
+    position: relative;
+    width: 192px;
+    height: 55px;
+    top: 110px;
+    left: 132px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 75px;
+    text-align: center;
+    justify-content: center;
+  
+    color: var(--title-page);
+  }
+
+  .inovasi-title .inovasi-desc {
+    position: relative;
+    width: 400px;
+    height: 452px;
+    top: 130px;
+    left: 140px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .supplychain {
+    position:relative; 
+    width: 600px;
+    bottom: 280px; 
+    left: 550px;
+  }
+
+  .keunggulan-div h1 {
+    position: relative;
+    margin-top: 30px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 75px;
+    text-align: center;
+    justify-content: center;
+  
+    color: var(--title-page);
+  }
+
+  .keunggulan-title1 h5 {
+    position: relative;
+    margin-top: 30px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .keunggulan-title2 h5 {
+    position: relative;
+    margin-top: 34px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .content-kontak {
+    display: flex;
+    padding: 10px;
+    padding-top: 70px;
+  }
+  
+  .detail-kontak {
+    padding: 40px;
+    margin-left: 50px;
+  }
+  
+  .detail-kontak h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+  
+    color: var(--title-page);
+  }
+  
+  .detail-kontak p {
+    margin-top: 10px;
+    width: 450px;
+  
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  
+  .icon-kontak {
+    display: flex;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+  .icon-kontak h5 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .call-kontak {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+  }
+  
+  .call-kontak img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14px;
+  }
+  
+  .Mail-kontak {
+    display: flex;
+    padding-top: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .Mail-kontak h5 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  
+  .mail-kontak {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+  }
+  
+  .mail-kontak img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14px;
+  }
+  .Maps-kontak {
+    display: flex;
+    padding-top: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .Maps-kontak p {
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .maps-kontak {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+  }
+  
+  .maps-kontak img {
     position: relative;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:14px;
+  }
+
+  .img-kontak {
+    position: absolute;
+    left: 50%;
+    bottom: -4030px;
+    width: 520px;
+  }
+
+}
+
+@media screen and (max-width: 1140px){
+  .img-kontak {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    bottom: -3650px;
+  }
+}
+
+@media screen and (max-width: 1039px) {
+
+  .home {
+    width: 1300px;
+    background-color: var(--white-background-1);
+    background-image: url(/img/Home2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 5;
+  }
+
+  .about {
+    width: 1300px;
+    background-color: var(--white-background-1);
+    background-image: url(/img/About.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 5;
+  }
+
+  .tujuan {
+    width: 1300px; 
+    background-color: var(--white-background-2);
+    background-image: url(/img/Tujuan.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 5;
+  }
+
+  .inovasi {
+    width: 1300px; 
+    background-color: var(--white-background-1);
+    background-image: url(/img/Inovasi.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 5;
+  }
+
+  .keunggulan {
+    width: 1300px; 
+    background-color: var(--white-background-2);
+    background-image: url(/img/Keunggulan.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 5;
+  }
+
+  .kontak {
+    width: 1300px; 
+    background-color: var(--white-background-1);
+    background-image: url(/img/Kontak.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 5;
+  }
+
+  .footer {
+    width: 1300px; 
+    height: 69px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #2D2D2D;
+  }
+
+  .latar-belakang .title {
+    position: relative;
+    width: 500px;
+    left: 50%; 
+    bottom: 380px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: left;
+    line-height: 43px;
+    /* or 81% */
+  
+    color: var(--title-page);
+  }
+  
+  .latar-belakang .desc {
+    position: relative;
+    height: 556px;
+    width: 560px;
+    left: 50%; 
+    bottom: 380px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    line-height: 31px;
+    /* or 81% */
+  
+    color: var(--desc-black);
+  }
+
+  .img-kontak {
+    position: absolute;
+    left: 66%;
+    bottom: -4040px;
+  }
+
+  .title-tujuan .tujuan-text {
+    position: relative;
+    width: 305px;
+    height: 74px;
+    top: 40px;
+    left: 50%;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    justify-content: center;
+  
+    color: var(--title-page);
+  }
+  
+  .title-tujuan .tujuan-desc {
+    position: relative;
+    width: 786px;
+    height: 58px;
+    left: 25%;
+    top: 45px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+  
+    color: var(--desc-black);
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .home {
+    width: 1020px;
+    height: 734px;
+    background-image: url(/img/tablet/Desktop.svg);
+  }
+
+  .about {
+    width: 1020px;
+    height: 734px;
+    background-image: url(/img/tablet/Desktop2.svg);
+  }
+
+  .tujuan {
+    width: 1020px;
+    height: 704px;
+    background-image: url(/img/tablet/Desktop1.svg);
+  }
+
+  .inovasi {
+    width: 1020px;
+    height: 780px;
+    background-image: url(/img/tablet/Desktop2.svg);
+  }
+
+  .keunggulan {
+    width: 1020px;
+    height: 734px;
+    background-image: url(/img/tablet/Desktop1.svg);
+  }
+
+  .kontak {
+    width: 1020px;
+    height: 1070px;
+    background-color: var(--white-background-1);
+  }
+
+  /* Home */
+
+  .logistic-png {
+    left: 25%; 
+    top: 120px; 
+    position: relative;
+  
+    width: 510px;
+    height: auto;
+    animation: melayang 5s infinite;
+  }
+  
+  @keyframes melayang {
+    50% {
+      transform: translate(0px, 5px);
+    }
+  }
+  
+  .title-text {
+    width: 500px;
+  }
+  
+  .title-home {
+    position: relative;
+    width: max-content;
+    top: 840px;
+    padding: 0;
+  }
+  
+  .title {
+    position: relative;
+    left: 55%;
+    bottom: 785px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 195px;
+
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    /* or 152% */
+    letter-spacing: 0.04em;
+    color: var(--white-element);
+  }
+  
+  .subtitle-1 {
+    position: relative;
+    left: 73%;
+    bottom: 740px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: var(--white-element);
+  }
+  
+  .subtitle-2 {
+    position: relative;
+    height: 58px;
+    width: 554px;
+    left: 12.6%;
+    bottom: 1080px;
+  
+    font-family: 'Heebo', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    /* or 152% */
+    letter-spacing: 0.06em;
+    color: var(--white-element);
+    visibility: hidden;
+  }
+
+  .button-detail {
+   visibility: hidden;
+  }
+
+  /* About */
+
+  .robot {
+    position: relative;
+    width: 330px; 
+    top: 130px; 
+    left: 13%;
+  }
+
+  .latar-belakang .title {
+    position: relative;
+    width: 500px;
+    left: 50%; 
+    bottom: 336px;
+    font-size: large;
+  }
+  
+  .latar-belakang .desc {
+    width: 345px;
+    left: 50%; 
+    bottom: 340px;
+    font-size: 11px;
+    line-height: 25px;
+  }
+
+  .blue-square-about {
+    width: 40px;
+    height: 40px;
+    left: 95.4%;
+    bottom: 374px;
+  }
+
+  /* Tujuan */
+  
+  .title-tujuan {
+    width: 1000px;
+  }
+  
+  .title-tujuan .tujuan-text {
+    position: relative;
+    width: 305px;
+    height: 74px;
+    top: 20px;
+    left: 37%;
+  
+    font-size: 34px;
+    line-height: 75px;
+
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .title-tujuan .tujuan-desc {
+    position: relative;
+    width: 786px;
+    height: 58px;
+    left: 13%;
+    top: 20px;
+
+    font-size: 12px;
+    line-height: 22px;
+
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  /* Inovasi */
+
+  .inovasi-title .inovasi-text {
+    position: relative;
+    width: 305px;
+    height: 74px;
+    top: 40px;
+    left: 37%;
+  
+    font-size: 34px;
+    line-height: 75px;
+
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .inovasi-title .inovasi-desc {
+    position: relative;
+    width: 2000px;
+    height: 452px;
+    top: 35px;
+    left: 19%;
+
+    width: 670px;
+    bottom: 340px;
+    font-size: 11.5px;
+    line-height: 25px;
+    text-align: center;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 31px;
+    /* or 172% */
+  
+    z-index: 2;
+    color: var(--desc-black);
+  }
+  
+  .supplychain {
+    position:relative; 
+    width: 50px;
+    height: auto;
+    bottom: 120px; 
+    left: 25%;
+  }
+
+  /* Keunggulan */
+  
+  .keunggulan-div {
+    padding: 50px;
+  }
+  
+  .keunggulan-div h1 {
+    width: 305px;
+    height: 74px;
+    top: -50px;
+    left: 34%;
+  
+    font-size: 34px;
+    line-height: 75px;
+
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .keunggulan-title1 h5 {
+    margin-top: -40px;
+    font-size: 12px;
+    line-height: 29px;
+  }
+  
+  .keunggulan-title2 h5 {
+    margin-top: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 29px;
+  }
+
+  /* Kontak */
+
+.content-kontak {
+  display: flex;
+  padding: 60px;
+}
+
+.detail-kontak {
+  padding: 40px;
+  margin-left: 50px;
+}
+
+.detail-kontak h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 440px;
+  margin-left: 10%;
+  text-align: center;
+
+  color: var(--title-page);
+}
+
+.detail-kontak p {
+  margin-top: 10px;
+  margin-left: 24%;
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.icon-kontak {
+  display: flex;
+  padding-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: -105px;
+}
+
+.icon-kontak h5 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.call-kontak {
+  width: 47px;
+  height: 47px;
+  border-radius: 50px;
+  box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.call-kontak img {
+  width: 30px;
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.Mail-kontak {
+  display: flex;
+  margin-left: 500px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.Mail-kontak h5 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.mail-kontak {
+  width: 47px;
+  height: 47px;
+  border-radius: 20px;
+  box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.mail-kontak img {
+  width: 27px;
+  height: 35px;
+  display: block;
+  padding-top: 11px;
+}
+
+.Maps-kontak {
+  display: flex;
+  padding-top: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 350px;
+}
+
+.Maps-kontak p {
+  font-family: "Poppins", sans-serif;
+  padding-top: 70px;
+  margin-left: -250px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.maps-kontak {
+  width: 47px;
+  height: 47px;
+  border-radius: 20px;
+  box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.maps-kontak img {
+  padding-top:10px;
+  width: 26px;
+  height: 36px;
+}
+
+.img-kontak {
+  width: 420px;
+  left: 42%;
+  bottom: -3460px;
+}
+
+  /* Footer */
+
+  .footer {
+    position: relative;
+    width: 1020px;
+    height: 49px;
+  
+    background: #2D2D2D;
+  }
+
+  .footer .text-center {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 31px;
+    /* or 207% */
+  
+    top: 10px;
+    text-align: center;
+    justify-content: center;
+  
+    color: var(--white-element);
+   
+  }
+
+  .supplychain {
+    position:relative; 
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    width: 100%;
+    height: 812px;
+    background-image: url(/img/smartphone/Home.svg);
+  }
+
+  .about {
+    width: 100%;
+    height: 1090px;
+    background-image: url(/img/smartphone/Desktop1.svg);
+  }
+
+  .tujuan {
     width: 100%;
     height: auto;
-  -webkit-transform: translate(-50%, 0%);-moz-transform: translate(-50%, 0%);-ms-transform: translate(-50%, 0%);-o-transform: translate(-50%, 0%);transform: translate(-50%,0%);
+    background-image: url(/img/smartphone/Desktop2.svg);
   }
-  .card:hover .overlay{bottom:0px;}
-  .card:hover img{top:50%;opacity: 1;}
+
+  .inovasi {
+    width: 100%;
+    height: 970px;
+    background-image: url(/img/smartphone/Desktop1.svg);
+  }
+
+  .keunggulan {
+    width: 100%;
+    height: 1200px;
+    background-image: url(/img/smartphone/Desktop2.svg);
+  }
+
+  .kontak {
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/smartphone/Desktop1.svg);
+  }
+
+  /* Home */
+
+  .logistic-png {
+    left: 5%; 
+    top: 130px; 
+    position: relative;
+  
+    width: 350px;
+    height: auto;
+    animation: melayang 5s infinite;
+  }
+  
+  @keyframes melayang {
+    50% {
+      transform: translate(0px, 5px);
+    }
+  }
+  
+  .title-text {
+    width: 500px;
+  }
+  
+  .title-home {
+    position: relative;
+    width: max-content;
+    top: 840px;
+    padding: 0;
+  }
+  
+  .title {
+    position: relative;
+    left: 11%;
+    bottom: 805px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 195px;
+
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    /* or 152% */
+    letter-spacing: 0.04em;
+    color: var(--white-element);
+  }
+  
+  .subtitle-1 {
+    position: relative;
+    left: 23%;
+    bottom: 730px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 40px;
+
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: var(--white-element);
+  }
+  
+  .subtitle-2 {
+    visibility: hidden;
+  }
+
+  .button-detail {
+    visibility: hidden;
+  }
+
+  /* About */
+
+  .robot {
+    position: relative;
+    width: 230px; 
+    top: 130px; 
+    left: 25%;
+  }
+
+  .latar-belakang .title {
+    position: relative;
+    width: 500px;
+    left: -13%; 
+    bottom: 230px;
+    font-size: medium, 10px;
+    text-align: center;
+  }
+  
+  .latar-belakang .desc {
+    width: 250px;
+    left: 18%; 
+    top: 100px;
+    font-size: 10px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .blue-square-about {
+    visibility: hidden;
+  }
+
+  /* Tujuan */
+  
+  .title-tujuan {
+    width: 500px;
+  }
+  
+  .title-tujuan .tujuan-text {
+    position: relative;
+    width: 305px;
+    height: 74px;
+    top: 30px;
+    left: 10%;
+  
+    font-size: 30px;
+    line-height: 75px;
+
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .title-tujuan .tujuan-desc {
+    position: relative;
+    width: 500px;
+    height: 58px;
+    left: -11%;
+    top: 20px;
+
+    font-size: 8px;
+    line-height: 22px;
+
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  /* Inovasi */
+
+  .inovasi-title .inovasi-text {
+    position: relative;
+    width: 305px;
+    height: 74px;
+    top: 40px;
+    left: 8%;
+  
+    font-size: 30px;
+    line-height: 75px;
+
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .inovasi-title .inovasi-desc {
+    position: relative;
+    width: 2000px;
+    height: 452px;
+    top: 35px;
+    left: 10%;
+
+    width: 300px;
+    bottom: 340px;
+    font-size: 10px;
+    line-height: 25px;
+    text-align: center;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 31px;
+    /* or 172% */
+  
+    z-index: 2;
+    color: var(--desc-black);
+  }
+  
+  .supplychain {
+    position:relative; 
+    width: 350px;
+    height: auto;
+    top: 80px; 
+    left: 5%;
+  }
+
+  /* Keunggulan */
+  
+  .keunggulan-div {
+    padding: 50px;
+  }
+  
+  .keunggulan-div h1 {
+    width: 305px;
+    height: 74px;
+    top: -50px;
+    left: -6%;
+  
+    font-size: 30px;
+    line-height: 75px;
+
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .keunggulan-title1 h5 {
+    margin-top: -40px;
+    font-size: 10px;
+    line-height: 29px;
+  }
+  
+  .keunggulan-title2 h5 {
+    margin-top: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    line-height: 29px;
+  }
+
+  /* Kontak */
+
+.content-kontak {
+  display: flex;
+  padding: 60px;
+}
+
+.detail-kontak {
+  padding: 40px;
+  margin-left: 50px;
+}
+
+.detail-kontak h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 280px;
+  margin-left: -82%;
+  text-align: center;
+
+  color: var(--title-page);
+}
+
+.detail-kontak p {
+  margin-top: 10px;
+  margin-left: -40%;
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.icon-kontak {
+  display: flex;
+  padding-top: 50px;
+  margin-left: -50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: -105px;
+}
+
+.icon-kontak h5 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 13px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.call-kontak {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.call-kontak img {
+  width: 28px;
+  height: 38px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.Mail-kontak {
+  display: flex;
+  margin-left: -50px;
+  margin-top: 90px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.Mail-kontak h5 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 13px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.mail-kontak {
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.mail-kontak img {
+  width: 24px;
+  height: 32px;
+  display: block;
+  padding-top: 11px;
+}
+
+.Maps-kontak {
+  display: flex;
+  margin-left: -50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.Maps-kontak p {
+  font-family: "Poppins", sans-serif;
+  padding-top: 2px;
+  margin-left: 0px;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+}
+
+.maps-kontak {
+  width: 47px;
+  height: 47px;
+  border-radius: 20px;
+  box-shadow: -9px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.maps-kontak img {
+  padding-top:10px;
+  width: 26px;
+  height: 36px;
+}
+
+.img-kontak {
+  width: 320px;
+  left: 9%;
+  top: 6730px;
+}
+
+  /* Footer */
+
+  .footer {
+    position: relative;
+    width: 100%;
+    height: 30px;
+  
+    background: #2D2D2D;
+  }
+
+  .footer .text-center {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 31px;
+    /* or 207% */
+  
+    top: 1px;
+    text-align: center;
+    justify-content: center;
+  
+    color: var(--white-element);
+   
+  }
 }

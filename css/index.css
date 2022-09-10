@@ -10,122 +10,38 @@
     --desc-black: #1D1D1E;
 }
 
-*{
-	margin: 0;
+*,
+*:before,
+*:after {
   padding: 0;
-	-webkit-box-sizing: border-box;
+  margin: 0;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 	scroll-behavior: smooth;
 }
 
-*:focus {outline:0;}
-
-.container {
-	width: 100%;
-	max-width: 1500px;
-	margin: 0 auto;
-	overflow-x: hidden;
-}
-
-/* Navbar */
-
-.home-nav{
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 22.3%;
-  top: 40px;
-            
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
-}
-
-.about-nav{
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 31.4%;
-  top: 40px;
-
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
-}
-
-.tujuan-nav{
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 42%;
-  top: 40px;
-    
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
-}
-
-.inovasi-nav{
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 51.7%;
-  top: 40px;
-    
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
-}
-
-.keunggulan-nav{
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 61.6%;
-  top: 40px;
-    
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: medium;
-	color: var(--white-element);
-	text-decoration: none;
-}
-
-.kontak-nav{
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 74.3%;
-  top: 40px;
-    
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: medium;
-  color: var(--white-element);
-  text-decoration: none;
+html {
+  scroll-behavior: smooth;
 }
 
 /* Home */
 
 .home {
   width: 100%;
-  height: 821px;
-  background-color: var(--blue-element);
+  height: auto;
+  background-image: url(/img/Home.png);
   background-repeat: no-repeat;
   background-size:cover;
-  z-index: 2;
+  z-index: 5;
 }
+.logistic-png {
+  left: 44%; 
+  top: 220px; 
+  position: relative;
 
-.logistic {
+  width: 730px;
+  height: 480px; 
   animation: melayang 5s infinite;
 }
 
@@ -140,7 +56,10 @@
 }
 
 .title-home {
+  position: relative;
   width: max-content;
+  top: 840px;
+  padding: 0;
 }
 
 .title {
@@ -193,6 +112,7 @@
   bottom: 1050px;
 
   border-radius: 30px;
+  transition: 0.1s ease-in;
   background-color: var(--white-element);
   filter: drop-shadow(3px 29px 23px rgba(0, 0, 0, 0.1));
 }
@@ -211,6 +131,7 @@
   line-height: 27px;
   text-align: center;
   color: var(--title-page);
+  transition: 0.1s ease-in;
 }
 
 .button-detail:hover {
@@ -221,6 +142,7 @@
   bottom: 1050px;
 
   border-radius: 30px;
+  transition: 0.1s ease-in;
   background-color: var(--orange-element);
   filter: drop-shadow(3px 29px 23px rgba(0, 0, 0, 0.1));
 }
@@ -239,6 +161,7 @@
   line-height: 27px;
   text-align: center;
   color: var(--white-element);
+  transition: 0.1s ease-in;
 }
 
 /* About */
@@ -251,6 +174,7 @@
 
 .robot {
   animation: terbang 5s infinite;
+  position: relative; top: 170px; left: 17%;
 }
 
 @keyframes terbang {
@@ -269,7 +193,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 53px;
+  font-size: 55px;
   text-align: left;
   line-height: 43px;
   /* or 81% */
@@ -310,7 +234,11 @@
 .tujuan {
   background-color: var(--white-background-2);
   background-image: url(/img/Tujuan.svg);
-  width: 100%; height: 840.2px; z-index: -1; padding: 0 auto; margin: 0 auto;
+  width: 100%; 
+  height: 840.2px; 
+  z-index: -1; 
+  padding: 0 auto; 
+  margin: 0 auto;
 }
 
 .title-tujuan {
@@ -400,6 +328,12 @@
   color: var(--desc-black);
 }
 
+.supplychain {
+  position:relative; 
+  bottom: 290px; 
+  left: 650px;
+}
+
 /* Keunggulan */
 
 .keunggulan {
@@ -458,16 +392,6 @@
 }
 
 /* Kontak */
-
-.kontak {
-  background-color: var(--white-background-1);
-  background-image: url(/img/Kontak.svg);
-  width: 100%;
-  height: 821.2px;
-  z-index: -1;
-  padding: 0 auto;
-  margin: 0 auto;
-}
 
 .content-kontak {
   display: flex;
@@ -586,9 +510,9 @@
 }
 
 .img-kontak {
-  position: relative;
-  bottom: 650px;
-  left: 730px;
+  position: absolute;
+  left: 50%;
+  bottom: -4000px;
 }
 
 /* Footer */
@@ -616,3 +540,4 @@
   color: var(--white-element);
  
 }
+
