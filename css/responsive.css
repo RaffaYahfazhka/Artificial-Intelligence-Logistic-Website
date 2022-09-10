@@ -4,7 +4,7 @@
 @media screen and (max-width: 1149px) {
   .home {
     width: 100%;
-    background-image: url(/img/Home2.png);
+    background-image: url(/img/Home.svg);
     background-repeat: no-repeat;
     background-size:cover;
     z-index: 5;
